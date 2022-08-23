@@ -2,5 +2,9 @@
 @import "block/header";
 
 body {
-  background-color: red;
+  font-family: "Raleway", "Arial", sans-serif;
+}
+.container {
+  max-width: 1170px;
+  padding: 0 15px;
 }
