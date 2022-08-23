@@ -1,0 +1,76 @@
+.header-block {
+  padding-top: 37px;
+  padding-bottom: 120px;
+  text-align: center;
+  background-image: url("/src/img/baner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__cap {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 35px;
+    &::before {
+      position: absolute;
+      content: "";
+      width: 1170px;
+      height: 1px;
+      background-color: #BABBC5;
+      bottom: 0;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      width: 134px;
+      height: 3px;
+      background-color: #BABBC5;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%, 0);
+    }
+  }
+  &__list {
+    display: flex;
+    text-transform: uppercase;
+    .list__nav {
+      width: 130px;
+    }
+    .list__website {
+      font-weight: 700;
+      font-size: 13px;
+      line-height: 15px;
+      color: #FFFFFF;
+    }
+  }
+  &__title {
+    margin-top: 130px;
+
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 64px;
+    line-height: 75px;
+    color: #ffffff;
+  }
+  &__paragraph {
+    margin-top: 31px;
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+  &__button {
+    margin-top: 80px;
+    padding: 28px;
+    min-width: 370px;
+
+    background-color: #FF4343;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    color: #ffffff;
+  }
+}
+
