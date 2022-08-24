@@ -1,0 +1,28 @@
+.download-block {
+  padding-top: 130px;
+  padding-bottom: 30px;
+  text-align: center;
+  &__title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35px;
+  }
+  &__paragraph {
+    margin-top: 26px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+  }
+  &__button {
+    margin-top: 48px;
+    padding: 28px;
+    width: 370px;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    text-transform: uppercase;
+    color: #ffffff;
+    background-color: #FF4343;
+  }
+}

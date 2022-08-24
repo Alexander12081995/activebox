@@ -1,0 +1,45 @@
+.footer-block__contacts {
+  background-color: #353C65;
+  padding-top: 75px;
+  padding-bottom: 70px;
+  .footer-block__list {
+    display: flex;
+    justify-content: center;
+    column-gap: 29px;
+    .list__contact {
+      width: 370px;
+      text-align: center;
+
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 21px;
+      color: #ffffff;
+      .contact__title {
+        text-transform: uppercase;
+      }
+      .contact__paragraph {
+        margin-top: 30px;
+        font-weight: 400;
+      }
+      .contact__list {
+        display: flex;
+        margin-top: 48px;
+        justify-content: center;
+        column-gap: 27px;
+      }
+    }
+  }
+}
+.footer-block__label {
+  padding: 30px 0;
+  text-align: center;
+  background-color: #2C3154;
+  .label__paragraph {
+    margin: 0 auto;
+    width: 370px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #808080;
+  }
+}

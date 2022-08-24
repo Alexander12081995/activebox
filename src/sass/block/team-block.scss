@@ -1,0 +1,41 @@
+.team-block {
+  margin-top: 114px;
+}
+.team-block__list {
+  display: flex;
+  justify-content: space-between;
+  .list__team {
+    max-width: 270px;
+    text-align: left;
+    .team__title {
+      margin-top: 35px;
+
+      font-weight: 700;
+      font-size: 24px;
+      line-height: 28px;
+      color: #2D3033;
+    }
+    .team__subtitle {
+      margin-top: 17px;
+
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #FF4343;
+      text-transform: uppercase;
+    }
+    .team__paragraph {
+      margin-top: 25px;
+
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 21px;
+      color: #6C7279;
+    }
+    .team__contact {
+      display: flex;
+      margin-top: 38px;
+      column-gap: 6px;
+    }
+  }
+}
