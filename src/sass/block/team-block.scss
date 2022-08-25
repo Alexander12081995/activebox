@@ -39,3 +39,32 @@
     }
   }
 }
+
+@media (max-width: 1510px) {
+  .team-block {
+    margin-top: 78px;
+  }
+  .team-block__list {
+    .list__team {
+      max-width: 227px;
+      .team__title {
+        margin-top: 25px;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      .team__subtitle {
+        margin-top: 5px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .team__paragraph {
+        margin-top: 22px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .team__contact {
+        column-gap: 4px;
+      }
+    }
+  }
+}
