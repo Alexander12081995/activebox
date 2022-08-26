@@ -64,5 +64,25 @@
     }
   }
 }
+@media (max-width: 1510px) {
+  .work-block {
+    margin: 34px auto 0;
+    &__list {
+      grid-template-columns: 160px 160px;
+      grid-template-rows: 144px 144px 144px 144px;
+    }
+  }
+  .work__text {
+    .work__title {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    .work__subtitle {
+      margin-top: 12px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}
 
 

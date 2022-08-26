@@ -26,3 +26,27 @@
       }
   }
 }
+.content__img {
+  height: 100%;
+}
+
+@media (max-width: 1510px) {
+  .testimonials-block {
+    margin-top: 78px;
+    max-width: 1024px;
+    &__content {
+      .content__text {
+        padding: 47px 104px 110px 88px;
+        .text__title {
+          font-size: 24px;
+          line-height: 32px;
+        }
+        .text__paragraph {
+          margin-top: 26px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+}

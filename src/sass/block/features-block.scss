@@ -109,45 +109,97 @@
     }
   }
   .pencil {
-    position: relative;
     &::before {
       width: 85px;
       height: 85px;
     }
   }
   .screen {
-    position: relative;
     &::before {
       width: 85px;
       height: 85px;
     }
   }
   .lamp {
-    position: relative;
     &::before {
       width: 85px;
       height: 85px;
     }
   }
   .star {
-    position: relative;
     &::before {
       width: 85px;
       height: 85px;
     }
   }
   .tick {
-    position: relative;
     &::before {
       width: 85px;
       height: 85px;
     }
   }
   .basket {
-    position: relative;
     &::before {
       width: 85px;
       height: 85px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .features-block {
+    margin-top: 40px;
+    &__list {
+      row-gap: 41px;
+      .list__feature {
+        padding-top: 115px;
+        max-width: 280px;
+        .feature__title {
+          font-size: 18px;
+          line-height: 21px;
+        }
+        .feature__paragraph {
+          margin-top: 15px;
+          font-size: 14px;
+          line-height: 16px;
+        }
+      }
+    }
+  }
+  .pencil {
+    &::before {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .screen {
+    &::before {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .lamp {
+    &::before {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .star {
+    &::before {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .tick {
+    &::before {
+      width: 75px;
+      height: 75px;
+    }
+  }
+  .basket {
+    &::before {
+      width: 75px;
+      height: 75px;
     }
   }
 }

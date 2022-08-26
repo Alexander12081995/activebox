@@ -68,3 +68,42 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .team-block {
+    margin-top: 35px;
+  }
+  .team-block__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .list__team {
+      margin-top: 56px;
+      max-width: 280px;
+      text-align: left;
+      .team__title {
+        margin-top: 30px;
+        font-size: 18px;
+        line-height: 21px;
+      }
+      .team__subtitle {
+        margin-top: 17px;
+
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FF4343;
+        text-transform: uppercase;
+      }
+      .team__paragraph {
+        margin-top: 12px;
+        font-size: 14px;
+        line-height: 16px;
+      }
+      .team__contact {
+        margin-top: 55px;
+        column-gap: 6px;
+      }
+    }
+  }
+}
