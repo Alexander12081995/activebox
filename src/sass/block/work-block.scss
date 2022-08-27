@@ -1,88 +1,39 @@
-.work-block {
-  margin: 120px auto 0;
-  &__list {
-    display: grid;
-    justify-content: center;
-    grid-template-columns: 380px 380px 380px 380px;
-    grid-template-rows: 340px 340px;
+.works{
+  margin-top: 120px;
+  max-width: 1510px;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.pic_wrapper{
+  object-fit: cover;
+
+  position: relative;
+  display: flex;
+  margin: 0;
+  img{
+    margin: 0;
+    height: 100%;
+    width: 100%;
   }
 }
-.work__text {
+
+.text_wrapper{
   display: none;
   position: absolute;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   min-height: 100%;
   min-width: 100%;
-  .work__title {
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
-    text-transform: uppercase;
-    color: #ffffff;
-  }
-  .work__subtitle {
-    margin-top: 45px;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    color: #ffffff;
-  }
+  align-items: center;
+  justify-content: center;
 }
-.list__work {
+.pic_wrapper:hover .text_wrapper{
   display: flex;
-  position: relative;
+  position: absolute;
+  background-color: #FF4343;
+  opacity: 0.7;
 
-  &:hover .work__text{
-    display: flex;
-    background-color: rgba(255, 67, 67, 0.8);
-  }
-
-  &:active .work__text{
-    background: rgba(185, 12, 12, 0.8);
-  }
 }
-
-@media (max-width: 1510px) {
-  .work-block {
-    margin-top: 80px;
-    &__list {
-      grid-template-columns: 257px 257px 257px 257px;
-      grid-template-rows: 230px 230px;
-    }
-  }
-  .work__text {
-    .work__title {
-      font-size: 18px;
-      line-height: 21px;
-    }
-    .work__subtitle {
-      margin-top: 28px;
-      font-size: 14px;
-      line-height: 16px;
-    }
-  }
-}
-@media (max-width: 1510px) {
-  .work-block {
-    margin: 34px auto 0;
-    &__list {
-      grid-template-columns: 160px 160px;
-      grid-template-rows: 144px 144px 144px 144px;
-    }
-  }
-  .work__text {
-    .work__title {
-      font-size: 18px;
-      line-height: 21px;
-    }
-    .work__subtitle {
-      margin-top: 12px;
-      font-size: 14px;
-      line-height: 16px;
-    }
-  }
-}
-
-
