@@ -48,3 +48,24 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .download-block {
+    padding-top: 56px;
+    padding-bottom: 45px;
+    &__title {
+      font-size: 18px;
+      line-height: 21px;
+    }
+    &__paragraph {
+      font-size: 13px;
+      line-height: 15px;
+    }
+    &__button {
+      margin-top: 11px;
+      padding: 30px;
+      width: 279px;
+      font-size: 18px;
+      line-height: 21px;
+    }
+  }
+}

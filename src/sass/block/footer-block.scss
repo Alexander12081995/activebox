@@ -75,3 +75,34 @@
     }
   }
 }
+@media (max-width: 1024px) {
+  .footer-block__contacts {
+    padding-top: 34px;
+    padding-bottom: 33px;
+    .footer-block__list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 69px;
+      .list__contact {
+        width: 280px;
+        font-size: 14px;
+        line-height: 16px;
+        .contact__paragraph {
+          margin-top: 34px;
+        }
+        .contact__list {
+          margin-top: 36px;
+          column-gap: 16px;
+        }
+      }
+    }
+  }
+  .footer-block__label {
+    .label__paragraph {
+      width: 280px;
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

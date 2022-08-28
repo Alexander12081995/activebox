@@ -32,10 +32,6 @@
       font-size: 13px;
       line-height: 15px;
       color: #FFFFFF;
-      .list__website:hover {
-        border-bottom: 4px solid #BABBC5;
-        bottom: 0;
-      }
     }
   }
   &__title {
@@ -67,6 +63,10 @@
     line-height: 28px;
     color: #ffffff;
   }
+}
+.list__website:hover {
+  border-bottom: 3px solid #BABBC5;
+
 }
 
 @media (max-width: 1510px) {
@@ -140,6 +140,9 @@
       padding: 18px;
       min-width: 280px;
     }
+  }
+  .list__website:hover {
+    border: none;
   }
 }
 

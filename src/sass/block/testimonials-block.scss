@@ -50,3 +50,29 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .testimonials-block {
+    margin: 41px auto 0;
+    max-width: 412px;
+    &__content {
+      flex-direction: column;
+      .content__text {
+        padding: 28px 25px 95px 20px;
+        .text__title {
+          font-size: 24px;
+          line-height: 32px;
+        }
+        .text__paragraph {
+          margin-top: 35px;
+          font-size: 12px;
+          line-height: 14px;
+        }
+      }
+    }
+  }
+  .content__img {
+    height: 100%;
+    width: 100%;
+  }
+}
