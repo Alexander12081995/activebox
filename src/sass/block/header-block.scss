@@ -62,11 +62,21 @@
     font-size: 24px;
     line-height: 28px;
     color: #ffffff;
+    &:hover {
+      background-color: #E71414;
+    }
+    &:active {
+      background: #FF4343;
+      box-shadow: 4px 4px 30px #FF4343;
+    }
   }
 }
 .list__website:hover {
   border-bottom: 3px solid #BABBC5;
-
+}
+.list__website:active {
+  color: #E71414;
+  border-bottom: 3px solid #E71414;
 }
 
 @media (max-width: 1510px) {

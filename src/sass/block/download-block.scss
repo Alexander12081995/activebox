@@ -24,6 +24,13 @@
     text-transform: uppercase;
     color: #ffffff;
     background-color: #FF4343;
+    &:hover {
+      background-color: #E71414;
+    }
+    &:active {
+      background: #FF4343;
+      box-shadow: 4px 4px 30px #FF4343;
+    }
   }
 }
 
