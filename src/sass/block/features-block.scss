@@ -98,14 +98,15 @@
       column-gap: 20px;
       row-gap: 49px;
       .list__feature {
-        padding-top: 138px;
+        padding-top: 110px;
         max-width: 314px;
         .feature__title {
+          margin-top: 22px;
           font-size: 18px;
           line-height: 21px;
         }
         .feature__paragraph {
-          margin-top: 33px;
+          margin-top: 22px;
           font-size: 14px;
           line-height: 16px;
         }
@@ -156,14 +157,14 @@
     &__list {
       row-gap: 41px;
       .list__feature {
-        padding-top: 115px;
+        padding-top: 89px;
         max-width: 280px;
         .feature__title {
           font-size: 18px;
           line-height: 21px;
         }
         .feature__paragraph {
-          margin-top: 15px;
+          margin-top: 9px;
           font-size: 14px;
           line-height: 16px;
         }

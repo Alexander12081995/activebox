@@ -37,14 +37,15 @@
 
 @media (max-width: 1510px) {
   .download-block {
-    padding-top: 98px;
-    padding-bottom: 78px;
+    padding-top: 122px;
+    padding-bottom: 76px;
     &__title {
       font-size: 24px;
       line-height: 28px;
     }
     &__paragraph {
-      font-size: 14px;
+      margin-top: 20px;
+      font-size: 13px;
       line-height: 16px;
     }
     &__button {

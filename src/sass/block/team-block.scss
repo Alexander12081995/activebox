@@ -54,7 +54,7 @@
     .list__team {
       max-width: 227px;
       .team__title {
-        margin-top: 25px;
+        margin-top: 21px;
         font-size: 18px;
         line-height: 21px;
       }
@@ -70,6 +70,10 @@
       }
       .team__contact {
         column-gap: 4px;
+        .contact__website {
+          width: 33px;
+          height: 33px;
+        }
       }
     }
   }
