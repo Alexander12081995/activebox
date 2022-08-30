@@ -1,5 +1,5 @@
 .work-block {
-  margin: 120px auto 0;
+  margin: 133px auto 0;
   max-width: 1510px;
 }
 .wrapper {
@@ -60,9 +60,6 @@
 
   }
   .wrapper {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
     width: 1024px;
     .pic_wrapper {
       width: 257px;

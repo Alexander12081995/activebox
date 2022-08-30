@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-bottom: 35px;
+    padding-bottom: 33px;
     &::before {
       position: absolute;
       content: "";
@@ -19,12 +19,16 @@
       background-color: #BABBC5;
       bottom: 0;
     }
+    .cap__logo {
+      margin-left: 4px;
+    }
   }
   &__list {
     display: flex;
     text-transform: uppercase;
     .list__nav {
-      width: 130px;
+      width: 133px;
+      margin-bottom: 7px;
     }
     .list__website {
       position: relative;
@@ -45,7 +49,8 @@
   }
   &__paragraph {
     margin-top: 31px;
-
+    padding: 0 68px;
+    margin-left: 8px;
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
@@ -53,7 +58,8 @@
   }
   &__button {
     margin-top: 80px;
-    padding: 28px;
+    margin-left: 11px;
+    padding: 25px;
     min-width: 370px;
 
     background-color: #FF4343;
@@ -71,10 +77,11 @@
     }
   }
 }
-.list__website:hover {
+.list__nav:hover {
   border-bottom: 3px solid #BABBC5;
+  position: relative;
 }
-.list__website:active {
+.list__nav:active {
   color: #E71414;
   border-bottom: 3px solid #E71414;
 }

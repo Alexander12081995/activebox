@@ -1,12 +1,12 @@
 .testimonials-block {
-  margin: 120px auto 0;
-  max-width: 1511px;
+  margin: 110px auto 0;
+  max-width: 1510px;
   background-color: #5C3249;
     &__content {
       display: flex;
       justify-content: space-between;
       .content__text {
-        padding: 142px 170px 116px 129px;
+        padding: 134px 170px 116px 129px;
         .text__title {
           font-family: "Cardo", "Arial", sans-serif;
           font-weight: 400;
@@ -16,7 +16,7 @@
           color: #FFFFFF;
         }
         .text__paragraph {
-          margin-top: 30px;
+          margin-top: 27px;
           text-transform: uppercase;
           font-weight: 700;
           font-size: 13px;

@@ -1,22 +1,23 @@
 .download-block {
-  padding-top: 130px;
-  padding-bottom: 114px;
+  padding-top: 173px;
+  padding-bottom: 112px;
   text-align: center;
+  margin-left: 7px;
   &__title {
     font-weight: 500;
     font-size: 30px;
     line-height: 35px;
   }
   &__paragraph {
-    margin-top: 26px;
+    margin-top: 25px;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
     text-transform: uppercase;
   }
   &__button {
-    margin-top: 48px;
-    padding: 28px;
+    margin-top: 45px;
+    padding: 27px;
     width: 370px;
     font-weight: 900;
     font-size: 24px;
@@ -60,6 +61,8 @@
     padding-top: 56px;
     padding-bottom: 45px;
     &__title {
+      max-width: 280px;
+      min-width: 280px;
       font-size: 18px;
       line-height: 21px;
     }

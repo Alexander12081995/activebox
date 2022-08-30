@@ -1,5 +1,6 @@
 .team-block {
-  margin-top: 114px;
+  margin-top: 112px;
+  margin-left: 8px;
 }
 .team-block__list {
   display: flex;
@@ -13,7 +14,7 @@
       height: 100%;
     }
     .team__title {
-      margin-top: 35px;
+      margin-top: 28px;
 
       font-weight: 700;
       font-size: 24px;
@@ -21,7 +22,7 @@
       color: #2D3033;
     }
     .team__subtitle {
-      margin-top: 17px;
+      margin-top: 7px;
 
       font-weight: 400;
       font-size: 18px;
@@ -30,7 +31,7 @@
       text-transform: uppercase;
     }
     .team__paragraph {
-      margin-top: 25px;
+      margin-top: 18px;
 
       font-weight: 400;
       font-size: 18px;

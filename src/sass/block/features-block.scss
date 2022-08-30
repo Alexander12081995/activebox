@@ -1,11 +1,12 @@
 .features-block {
   margin-top: 116px;
+  margin-left: 13px;
   text-align: center;
   &__list {
     display: flex;
     flex-wrap: wrap;
-    column-gap: 30px;
-    row-gap: 88px;
+    column-gap: 29px;
+    row-gap: 84px;
     .list__feature {
       padding-top: 154px;
       max-width: 370px;
@@ -17,7 +18,7 @@
         color: #2D3033;
       }
       .feature__paragraph {
-        margin-top: 50px;
+        margin-top: 43px;
         font-weight: 400;
         font-size: 18px;
         line-height: 21px;
@@ -34,7 +35,7 @@
   &::before {
     position: absolute;
     content: url("/src/img/pencil.svg");
-    top: 0;
+    top: 13px;
     left: 50%;
     transform: translate(-50%,0);
   }
@@ -44,7 +45,7 @@
   &::before {
     position: absolute;
     content: url("/src/img/screen.svg");
-    top: 0;
+    top: 13px;
     left: 50%;
     transform: translate(-50%,0);
   }
@@ -54,7 +55,7 @@
   &::before {
     position: absolute;
     content: url("/src/img/lamp.svg");
-    top: 0;
+    top: 7px;
     left: 50%;
     transform: translate(-50%,0);
   }
@@ -64,7 +65,7 @@
   &::before {
     position: absolute;
     content: url("/src/img/star.svg");
-    top: 0;
+    top: 13px;
     left: 50%;
     transform: translate(-50%,0);
   }
@@ -74,7 +75,7 @@
   &::before {
     position: absolute;
     content: url("/src/img/tick.svg");
-    top: 0;
+    top: 2px;
     left: 50%;
     transform: translate(-50%,0);
   }
@@ -84,7 +85,7 @@
   &::before {
     position: absolute;
     content: url("/src/img/basket.svg");
-    top: 0;
+    top: 4px;
     left: 50%;
     transform: translate(-50%,0);
   }
